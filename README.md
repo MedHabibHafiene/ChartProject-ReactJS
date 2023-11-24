@@ -35,9 +35,9 @@ Make sure you have Node.js and npm installed on your machine.
 ### Running the Application
 
 Once the installation is complete, you can start the React development server.
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 npm start
 Built With
 React - JavaScript library for building user interfaces.
