@@ -17,13 +17,13 @@ Make sure you have Node.js and npm installed on your machine.
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/your-react-chartjs-project.git
+    [git clone https://github.com/your-username/your-react-chartjs-project.git](https://github.com/MedHabibHafiene/ChartProject-ReactJS.git)
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd your-react-chartjs-project
+    cd charts-app
     ```
 
 3. Install the dependencies:
@@ -35,6 +35,16 @@ Make sure you have Node.js and npm installed on your machine.
 ### Running the Application
 
 Once the installation is complete, you can start the React development server.
+```bash
+npm start
+```
+npm start
+Built With
+React - JavaScript library for building user interfaces.
+Chart.js - Simple yet flexible JavaScript charting library.
+
+Contributing
+Feel free to contribute to the project by opening issues or submitting pull requests. Your input is highly appreciated!
 
 Acknowledgments
 Thanks to the developers of React and Chart.js for providing excellent tools for building interactive and visually appealing applications.
