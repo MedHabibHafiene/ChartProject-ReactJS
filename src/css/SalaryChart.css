@@ -1,0 +1,19 @@
+.chart{
+    padding-top: 20px;
+    padding-left: 2px;
+}
+.chart-container {
+  background-color: rgb(245, 243, 243);
+    display: flex;
+    flex-wrap: wrap; /* Allow charts to wrap to the next line on smaller screens */
+    justify-content: space-around; /* Distribute charts evenly along the main axis */
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .chart-container {
+      flex-direction: column; /* Stack charts vertically on smaller screens */
+      align-items: center; /* Center charts along the cross axis */
+    }
+  }
+  
