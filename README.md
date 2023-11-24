@@ -4,6 +4,8 @@ This project is a React application that utilizes Chart.js to visualize a datase
 
 ## Getting Started
 
+You may view the project by visiting the following URL: https://charts-app-reactjs.netlify.app
+
 Follow the steps below to set up and run the project on your local machine.
 
 ### Prerequisites
