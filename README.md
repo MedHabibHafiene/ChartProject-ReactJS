@@ -1,6 +1,6 @@
 # React Chart.js Visualization Project
 
-This project is a React application that utilizes Chart.js to visualize a dataset. It provides a simple and interactive way to display and explore your data through various chart types.
+This project is a React application that utilizes Chart.js to visualize a dataset. It provides a simple and dynamic way to display and explore your data through various chart types.
 
 ## Getting Started
 
