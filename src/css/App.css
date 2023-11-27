@@ -93,7 +93,9 @@ a:hover::before {
 
   .nav li {
     margin-right: 0;
-    margin-bottom: 10px;
+    margin-left: -300px;
+    margin-bottom: 35px;
+    margin-top: -25px;
   }
 
   .menu-icon {
@@ -101,11 +103,11 @@ a:hover::before {
   }
 
   .nav {
-    max-height: 90px;
+    max-height: 27px;
   }
 
   .nav-open {
-    max-height: 200px;
+    max-height: 100px;
   }
 
   .menu-icon.active .bar:nth-child(1) {
