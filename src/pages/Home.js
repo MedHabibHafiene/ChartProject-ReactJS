@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import styled from "styled-components";
 import Footer from "../components/FooterContainer";
+import lineChart from "../img/line-chart.gif";
 
 const Container = styled.div`
   max-width: 800px;
@@ -11,6 +12,11 @@ const Container = styled.div`
   background-color: #f7f7f7;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+  img {
+    border-radius: 50%;
+    overflow: hidden;
+  }
 `;
 
 const Title = styled.h1`
@@ -38,9 +44,9 @@ const Home = () => {
 
   return (
     <>
-      {" "}
       <Container>
         <Title>Welcome to my Chart project !</Title>
+        <img src={lineChart} alt="Line Chart" width="180" height="180" />
         <Paragraph>
           I'm currently deepening my skills by crafting various charts in a
           React project. As part of this practice, I'm focusing on utilizing
