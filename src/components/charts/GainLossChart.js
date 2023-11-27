@@ -55,19 +55,28 @@ const ChartComponent = () => {
     <div style={{ display: "flex", justifyContent: "space-between" }}>
       <div
         id="barChartContainer"
-        style={{ width: "45%", marginLeft: "50px", marginTop: "40px" }}
+        style={{
+          width: "45%",
+          marginLeft: "50px",
+          marginTop: "40px",
+          flex: "0 0 auto",
+        }}
       >
         <BarChart chartData={userData} />
       </div>
       <div
         id="lineChartContainer"
-        style={{ width: "45%", marginTop: "40px", marginRight: "55px" }}
+        style={{
+          width: "45%",
+          marginTop: "40px",
+          marginRight: "55px",
+          flex: "0 0 auto",
+        }}
       >
         <LineChart chartData={userData} />
       </div>
     </div>
   );
 };
-
 
 export default ChartComponent;
